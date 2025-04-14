@@ -24,3 +24,4 @@ jobs:
               run: Write-Output "Windows String"
             - name: Error Step
               run: throw "Does not Exist"
+              shell: pwsh
